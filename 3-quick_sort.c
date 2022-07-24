@@ -19,7 +19,7 @@ size_t partition(int *array, ssize_t left, ssize_t right, size_t size)
 	j = left - 1;
 	for (k = left; k < right; k++)
 	{
-		if (array[j] < pivot)
+		if (array[k] < pivot)
 		{
 			j++;
 			if (j != k)
